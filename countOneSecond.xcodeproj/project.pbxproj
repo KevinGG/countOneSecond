@@ -16,6 +16,7 @@
 		8B9B48B71B4DF6C900370FEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B48B61B4DF6C900370FEA /* Images.xcassets */; };
 		8B9B48BA1B4DF6C900370FEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B48B81B4DF6C900370FEA /* LaunchScreen.xib */; };
 		8B9B48C61B4DF6C900370FEA /* countOneSecondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B48C51B4DF6C900370FEA /* countOneSecondTests.m */; };
+		8BFDC6891B4EB77E00B18FE1 /* RPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFDC6881B4EB77E00B18FE1 /* RPColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		8B9B48BF1B4DF6C900370FEA /* countOneSecondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countOneSecondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9B48C41B4DF6C900370FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9B48C51B4DF6C900370FEA /* countOneSecondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = countOneSecondTests.m; sourceTree = "<group>"; };
+		8BFDC6871B4EB77E00B18FE1 /* RPColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPColor.h; sourceTree = "<group>"; };
+		8BFDC6881B4EB77E00B18FE1 /* RPColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				8B9B48AE1B4DF6C900370FEA /* GameScene.sks */,
 				8B9B48B01B4DF6C900370FEA /* GameViewController.h */,
 				8B9B48B11B4DF6C900370FEA /* GameViewController.m */,
+				8BFDC6871B4EB77E00B18FE1 /* RPColor.h */,
+				8BFDC6881B4EB77E00B18FE1 /* RPColor.m */,
 				8B9B48B31B4DF6C900370FEA /* Main.storyboard */,
 				8B9B48B61B4DF6C900370FEA /* Images.xcassets */,
 				8B9B48B81B4DF6C900370FEA /* LaunchScreen.xib */,
@@ -230,6 +235,7 @@
 			files = (
 				8B9B48B21B4DF6C900370FEA /* GameViewController.m in Sources */,
 				8B9B48AA1B4DF6C900370FEA /* AppDelegate.m in Sources */,
+				8BFDC6891B4EB77E00B18FE1 /* RPColor.m in Sources */,
 				8B9B48AD1B4DF6C900370FEA /* GameScene.m in Sources */,
 				8B9B48A71B4DF6C900370FEA /* main.m in Sources */,
 			);
@@ -426,6 +432,7 @@
 				8B9B48CB1B4DF6C900370FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B9B48CC1B4DF6C900370FEA /* Build configuration list for PBXNativeTarget "countOneSecondTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				8B9B48CE1B4DF6C900370FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

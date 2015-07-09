@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 RightPaw. All rights reserved.
 //
 
+
 #import "GameViewController.h"
 #import "GameScene.h"
 
@@ -33,10 +34,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
+    skView.showsFPS = NO;
     skView.showsNodeCount = YES;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
