@@ -8,30 +8,32 @@
 
 #import "RPColor.h"
 
+#define Rgb2UIColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
 @implementation RPColor
 
 +(UIColor *)lightBlue{
-    return [UIColor colorWithRed:62.0/255.0 green:180.0/255.0 blue:245.0/255.0 alpha:1.0];
+    return Rgb2UIColor(62,180,245,1);
 }
 
 +(UIColor *)darkBlue{
-    return [UIColor colorWithRed:42.0/255.0 green:124.0/255.0 blue:168.0/255.0 alpha:1.0];
+    return Rgb2UIColor(42,124,168,1);
 }
 
 +(UIColor *)lightYellow{
-    return [UIColor colorWithRed:245.0/255.0 green:187.0/255.0 blue:61.0/255.0 alpha:1.0];
+    return Rgb2UIColor(245,187,61,1);
 }
 
 +(UIColor *)darkYellow{
-    return [UIColor colorWithRed:168.0/255.0 green:107.0/255.0 blue:42.0/255.0 alpha:1.0];
+    return Rgb2UIColor(168,107,42,1);
 }
 
 +(UIColor *)lightBlack{
-    return [UIColor colorWithRed:10.0/255.0 green:10.0/255.0 blue:10.0/255.0 alpha:1.0];
+    return Rgb2UIColor(10,10,10,1);
 }
 
 +(UIColor *)darkWhite{
-    return [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0];
+    return Rgb2UIColor(245,245,245,1);
 }
 
 @end

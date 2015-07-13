@@ -11,7 +11,6 @@
 #import "GameScene.h"
 
 @implementation SKScene (Unarchive)
-
 + (instancetype)unarchiveFromFile:(NSString *)file {
     /* Retrieve scene file path from the application bundle */
     NSString *nodePath = [[NSBundle mainBundle] pathForResource:file ofType:@"sks"];
@@ -26,25 +25,23 @@
     
     return scene;
 }
-
 @end
 
 @implementation GameViewController
-
+iAKSocialNetwork *sn;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-
     // Configure the view.
     SKView * skView = (SKView *)self.view;
     skView.showsFPS = NO;
-    skView.showsNodeCount = YES;
+    skView.showsNodeCount = NO;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
     GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+    scene.sn = [[iAKSocialNetwork alloc]initWithUIViewController:self];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
@@ -58,11 +55,7 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
+    return UIInterfaceOrientationMaskAll;
 }
 
 - (void)didReceiveMemoryWarning
