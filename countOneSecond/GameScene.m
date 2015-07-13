@@ -206,8 +206,13 @@
 }
 
 - (void)setAndDisplayTheBestScore{
+    float currentBestScore = [[[NSUserDefaults standardUserDefaults]objectForKey:@"bestscore"] floatValue];
+    if(pow(currentBestScore - 1.0, 2.0) > pow(ti - 1.0, 2.0)){
+        [[NSUserDefaults standardUserDefaults]setObject:[NSString stringWithFormat:@"%.003fs",ti] forKey:@"bestscore"];
+    }
+    currentBestScore = [[[NSUserDefaults standardUserDefaults]objectForKey:@"bestscore"] floatValue];
     SKLabelNode *bestScore = [[SKLabelNode alloc]initWithFontNamed:@"AppleSDGothicNeo-Medium"];
-    [bestScore setText:@"Best count:"];
+    [bestScore setText:[@"Best count:" stringByAppendingString:[NSString stringWithFormat:@"%.003fs", currentBestScore]]];
     [bestScore setPosition:CGPointMake(self.frame.size.width*0.5, self.frame.size.height*0.2)];
     bestScore.name = @"bestscore";
     [self addChild:bestScore];
