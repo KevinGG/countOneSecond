@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DAB7296F-CF9F-4CB9-A6A6-C6FD14A2BCAE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>countOneSecond</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1DAE5D587FE35821DAA085A5BBE8F5F9499F3F86</key>
+		<string>https://github.com/MissWan/countOneSecond.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>countOneSecond.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1DAE5D587FE35821DAA085A5BBE8F5F9499F3F86</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MissWan/countOneSecond.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1DAE5D587FE35821DAA085A5BBE8F5F9499F3F86</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1DAE5D587FE35821DAA085A5BBE8F5F9499F3F86</string>
+			<key>IDESourceControlWCCName</key>
+			<string>countOneSecond</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -154,6 +154,7 @@
                     [scoreLabel setText:[NSString stringWithFormat:@"Result: %.003fs", ti * elapsedTime]];
                     [scoreLabel setFontSize:100 - elapsedTime * 50];
                 }]];
+                
             }
         }
     }
