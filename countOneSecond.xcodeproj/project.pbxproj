@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0AEF483B1B5410740098002F /* iAKSocialNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF483A1B5410740098002F /* iAKSocialNetwork.m */; };
 		0AEF483D1B5411A40098002F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEF483C1B5411A40098002F /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0AEF483F1B54162A0098002F /* puppy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0AEF483E1B54162A0098002F /* puppy.jpeg */; };
 		8B9B48A71B4DF6C900370FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B48A61B4DF6C900370FEA /* main.m */; };
 		8B9B48AA1B4DF6C900370FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B48A91B4DF6C900370FEA /* AppDelegate.m */; };
 		8B9B48AD1B4DF6C900370FEA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B48AC1B4DF6C900370FEA /* GameScene.m */; };
@@ -36,7 +35,6 @@
 		0AEF48391B5410740098002F /* iAKSocialNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAKSocialNetwork.h; sourceTree = "<group>"; };
 		0AEF483A1B5410740098002F /* iAKSocialNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAKSocialNetwork.m; sourceTree = "<group>"; };
 		0AEF483C1B5411A40098002F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		0AEF483E1B54162A0098002F /* puppy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = puppy.jpeg; path = ../../../Downloads/puppy.jpeg; sourceTree = "<group>"; };
 		8B9B48A11B4DF6C900370FEA /* countOneSecond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countOneSecond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9B48A51B4DF6C900370FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9B48A61B4DF6C900370FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 		8B9B48A31B4DF6C900370FEA /* countOneSecond */ = {
 			isa = PBXGroup;
 			children = (
-				0AEF483E1B54162A0098002F /* puppy.jpeg */,
 				8B9B48A81B4DF6C900370FEA /* AppDelegate.h */,
 				8B9B48A91B4DF6C900370FEA /* AppDelegate.m */,
 				8B9B48AB1B4DF6C900370FEA /* GameScene.h */,
@@ -228,7 +225,6 @@
 				8B9B48BA1B4DF6C900370FEA /* LaunchScreen.xib in Resources */,
 				8B9B48B71B4DF6C900370FEA /* Images.xcassets in Resources */,
 				8B9B48AF1B4DF6C900370FEA /* GameScene.sks in Resources */,
-				0AEF483F1B54162A0098002F /* puppy.jpeg in Resources */,
 				8B9B48B51B4DF6C900370FEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
